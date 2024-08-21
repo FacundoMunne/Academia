@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BibliotecaDeClases.BusinessEntity">
+    <Position X="8" Y="1.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="BibliotecaDeClases.BusinessEntity.States" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BusinessEntity.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAACAEAAA=</HashCode>
+      <FileName>BusinessEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BibliotecaDeClases.Persona">
+    <Position X="5.25" Y="5.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="BibliotecaDeClases.Persona.TiposPersonas" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Persona.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>EAAAAAEAACgAAQCEACAAhEAEAAUAAAAAEAAAAgAABAA=</HashCode>
+      <FileName>Persona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BibliotecaDeClases.Plan">
+    <Position X="4.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAAAABAAAAAAAEAAAAAEAAAAA=</HashCode>
+      <FileName>Plan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BibliotecaDeClases.Comision">
+    <Position X="11.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAgAAAAAAAIAAAAAABAAAAAAAEEAAAAAAAAAA=</HashCode>
+      <FileName>Comision.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BibliotecaDeClases.Especialidad">
+    <Position X="13.5" Y="3.25" Width="1.5" />
+    <InheritanceLine Type="BibliotecaDeClases.BusinessEntity" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="3.449" />
+        <Point X="8.75" Y="4.286" />
+        <Point X="13.377" Y="4.286" />
+        <Point X="13.377" Y="4.104" />
+        <Point X="13.5" Y="4.104" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Especialidad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BibliotecaDeClases.Modulo">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <InheritanceLine Type="BibliotecaDeClases.BusinessEntity" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.75" Y="3.449" />
+        <Point X="8.75" Y="4.133" />
+        <Point X="4.25" Y="4.133" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Modulo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BibliotecaDeClases.Materia">
+    <Position X="3" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAgAAAAAAAABAAAAAAAEEAAAQAAAAwA=</HashCode>
+      <FileName>Materia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BibliotecaDeClases.ModuloUsuario">
+    <Position X="7.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAgAAAwAAAAAAACAAAAAQAAEAAAAAAAQABQAEAEAA=</HashCode>
+      <FileName>ModuloUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BibliotecaDeClases.AlumnosInscripcion">
+    <Position X="9.75" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAEAAACAAAAAAAgAAAAAAAAAAAAAAAAJEBAAAAA=</HashCode>
+      <FileName>AlumnosInscripcion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BibliotecaDeClases.Usuario">
+    <Position X="12" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABACAAAAAEAAAAgAAAIAEAABEAAIAAAAAAFAA=</HashCode>
+      <FileName>Usuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BibliotecaDeClases.Curso">
+    <Position X="14.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQIAAIAAIAAAACACAAAAAAABgAAAAAAEAAAAAAAABAA=</HashCode>
+      <FileName>Curso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BibliotecaDeClases.DocenteCurso">
+    <Position X="17" Y="5.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="BibliotecaDeClases.DocenteCurso.TiposCargos" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DocenteCurso.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAACAAACAAAAAAAAABAAAAAQAAAIA=</HashCode>
+      <FileName>DocenteCurso.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
